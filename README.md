@@ -69,9 +69,11 @@ Cuando 5.1.0 se publique a producción, conviene mover esta app a `Up to Next Ma
 
 ## Documentación del SDK
 
-- [Guía de instalación por SPM](https://github.com/mediastream/MediastreamPlatformSDKiOS/blob/master/docs/SPM_INSTALL.md)
-- [Flujo de ramas y releases](https://github.com/mediastream/MediastreamPlatformSDKiOS/blob/master/docs/RELEASE_FLOW.md)
+Todo público, no hace falta acceso al repo privado del SDK:
+
+- [Guía de instalación e integración](https://github.com/mediastream/MediastreamPlatformSDKiOS-spm#readme) — instalación, rangos de dependencias, canales de pre-release y tabla de compatibilidad por versión.
+- [Integración de Google Cast](https://github.com/mediastream/MediastreamPlatformSDKiOS-spm/blob/master/CAST_INTEGRATION.md)
 
 ## Chromecast
 
-No está, y no es un olvido: el SDK de Google Cast **no tiene Swift Package**. Una app que lo necesite tiene que sumar `google-cast-sdk` por CocoaPods —los dos gestores conviven en un mismo proyecto— o agregar el `.xcframework` a mano. Los casos de Cast siguen en la suite vieja.
+No está, y no es un olvido: el SDK de Google Cast **no tiene Swift Package**. Una app que lo necesite tiene que sumar `google-cast-sdk` por CocoaPods —los dos gestores conviven en un mismo proyecto— o agregar el `.xcframework` a mano. Los casos de Cast siguen en la suite vieja. La guía de integración está [acá](https://github.com/mediastream/MediastreamPlatformSDKiOS-spm/blob/master/CAST_INTEGRATION.md).
