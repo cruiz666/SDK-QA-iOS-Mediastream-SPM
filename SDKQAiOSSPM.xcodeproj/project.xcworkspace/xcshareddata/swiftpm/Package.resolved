@@ -1,0 +1,42 @@
+{
+  "originHash" : "46262efa6f553fb7bcf0dcac40aa160c8c885d692e27c5099c374ed61bb7b529",
+  "pins" : [
+    {
+      "identity" : "comscore-swift-package-manager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/comScore/Comscore-Swift-Package-Manager.git",
+      "state" : {
+        "revision" : "966992952a84510ac3a086d745f1681302b5cb26",
+        "version" : "6.17.0"
+      }
+    },
+    {
+      "identity" : "lib-plugin-spm-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://bitbucket.org/npaw/lib-plugin-spm-ios.git",
+      "state" : {
+        "revision" : "c017473d8ce90f8509633712fdaf1b5eac30c7c1",
+        "version" : "6.7.23"
+      }
+    },
+    {
+      "identity" : "mediastreamplatformsdkios-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mediastream/MediastreamPlatformSDKiOS-spm.git",
+      "state" : {
+        "revision" : "9e00822e4b1275511d1479318d850d3ac7d38b73",
+        "version" : "5.1.0-dev.2"
+      }
+    },
+    {
+      "identity" : "swift-package-manager-google-interactive-media-ads-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/googleads/swift-package-manager-google-interactive-media-ads-ios.git",
+      "state" : {
+        "revision" : "db4cbeb8c39f7c0fa2a28c52897e75288f6a3eaf",
+        "version" : "3.27.4"
+      }
+    }
+  ],
+  "version" : 3
+}

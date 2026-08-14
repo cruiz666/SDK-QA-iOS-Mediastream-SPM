@@ -1,0 +1,9 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# SwiftPM resolves from the manifest; the resolved file pins what Xcode picked and is
+# useful to commit for a QA app, so it is NOT ignored — everyone tests the same versions.
